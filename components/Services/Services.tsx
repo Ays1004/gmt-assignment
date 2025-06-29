@@ -104,6 +104,25 @@ const Services = () => {
                     </div>
                 </div>
             </div>
+            {/* Quote Section */}
+            <div
+                className="relative w-full h-[320px] md:h-[400px] flex items-center justify-center overflow-hidden"
+                style={{
+                    backgroundImage: "url('/images/waves.jpg')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                }}
+            >
+                <div className="absolute inset-0 bg-white/20" />
+                <div className="relative z-10 max-w-3xl mx-auto text-center px-4">
+                    <p className="text-2xl md:text-2xl text-black font-light mb-4 drop-shadow-lg">
+                        “I have come to believe that caring for myself is not self-indulgent. Caring for myself is an act of survival.”
+                    </p>
+                    <span className="block text-lg md:text-xl text-[#444] font-light mt-2 drop-shadow">
+                        — Audre Lorde
+                    </span>
+                </div>
+            </div>
         </div>
     );
 };

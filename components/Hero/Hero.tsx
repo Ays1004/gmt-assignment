@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
     return (
-        <div className="relative w-full h-full flex items-center justify-center">
+        <div className="relative w-full h-full md:h-170 m-4 flex items-center justify-center">
             <div className="relative w-full h-full flex items-center justify-center">
                 <video
                     src={"/videos/video.mp4"}

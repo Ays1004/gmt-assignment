@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+:root {
+  --font-freight-disp-pro: 'FreightDisp Pro', serif;
+}
+
+body {
+  font-family: var(--font-freight-disp-pro), Georgia, 'Times New Roman', serif;
+}

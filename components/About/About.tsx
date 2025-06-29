@@ -19,7 +19,7 @@ const About = () => {
                 src="/images/headshot.jpg"
                 alt="Dr. Serena Blake headshot"
                 fill
-                sizes="(max-width: 640px) 192px, (max-width: 768px) 224px, 256px"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="object-cover"
                 priority
               />
@@ -40,13 +40,13 @@ const About = () => {
         </div>
 
         {/* RIGHT: Image - hidden on small screens, visible on md and up */}
-        <div className="hidden md:flex md:col-span-5 items-center justify-center fadeIn" style={{transitionDelay: '90ms'}}>
+        <div className="hidden md:flex md:col-span-5 items-start justify-center fadeIn" style={{transitionDelay: '90ms'}}>
           <div className="w-64 h-96 lg:w-72 lg:h-[28rem] xl:w-80 xl:h-[30rem] aspect-[2/3] overflow-hidden shadow-md relative">
             <Image
               src="/images/headshot.jpg"
-              alt="Dr. Serena Blake headshot"
+              alt="Dr.Serena Blake"
               fill
-              sizes="(max-width: 1024px) 256px, (max-width: 1280px) 288px, 320px"
+              sizes="(max-width: 1024px) 50vw, 33vw"
               className="object-cover"
               priority
             />

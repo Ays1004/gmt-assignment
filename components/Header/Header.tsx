@@ -9,12 +9,12 @@ const Header = () => {
                     <span className="text-xs text-[#B6C1B0] select-none">Logo</span>
                 </div>
                 <div className="flex flex-col justify-center">
-                    <span className=" font-serif text-3xl text-zinc-700 leading-tight">
+                    <h1 className=" text-3xl text-zinc-700 leading-tight">
                         Dr. Serena Blake, PsyD
-                    </span>
-                    <span className="text-3xl font-serif text-zinc-700 leading-tight">
+                    </h1>
+                    <h1 className="text-3xl text-zinc-700 leading-tight">
                         Clinical Psychologist
-                    </span>
+                    </h1>
                 </div>
             </div>
             {/* Hamburger menu for medium and smaller screens */}

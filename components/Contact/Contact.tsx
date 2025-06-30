@@ -16,7 +16,7 @@ const Contact = () => {
                 {/* Contact Details */}
                 <div className="lg:w-1/2 flex flex-col justify-center items-center lg:items-start text-center lg:text-left mt-8 lg:mt-0">
                     <div className="w-full max-w-md">
-                        <h1 className="text-2xl md:text-4xl font-serif text-gray-700 mb-6">
+                        <h1 className="text-2xl md:text-4xl text-gray-700 mb-6">
                             Jennifer Hahm, Ph.D., Licensed
                             <br className="hidden md:block" />
                             Psychologist
@@ -85,7 +85,7 @@ const Contact = () => {
                         className="bg-white border border-gray-200 rounded-xl shadow-md p-6 md:p-8 w-full max-w-md flex flex-col gap-4"
                         autoComplete="off"
                     >
-                        <h2 className="text-xl md:text-2xl font-serif text-green-900 font-semibold text-center mb-2">
+                        <h2 className="text-xl md:text-2xl text-green-900 font-semibold text-center mb-2">
                             Get In Touch
                         </h2>
                         <p className="text-gray-700 text-sm text-center mb-4">

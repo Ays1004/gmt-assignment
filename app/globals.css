@@ -8,3 +8,9 @@ body {
   font-family: var(--font-freight-disp-pro), Georgia, 'Times New Roman', serif;
 }
 
+body {
+  font-family: var(--font-geist-sans), sans-serif;
+}
+h1, h2, h3 {
+  font-family: var(--font-freight-disp), serif;
+}

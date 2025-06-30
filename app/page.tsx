@@ -9,10 +9,10 @@ export default function Home() {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen w-full bg-gray-50">
             <div className="bg-[#F5F3EC] items-center justify-center w-full h-full">
-                <div className="p-5 h-full w-full flex items-center justify-center">
+                <div className="p-11 h-full w-full flex items-center justify-center">
                     <Header />
                 </div>
-                <div className="p-5 h-full w-full flex items-center justify-center">
+                <div className="p-11 h-full w-full flex items-center justify-center">
                     <Hero />
                 </div>
             </div>

@@ -5,15 +5,15 @@ import React from "react";
 const About = () => {
   return (
     <div className="relative max-w-6xl mx-auto px-4 py-14 md:py-20">
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-12">
+      <div className="grid grid-cols-1 gap-8 lg:grid-cols-12">
         {/* LEFT: Heading + Text */}
-        <div className="md:col-span-7 flex flex-col justify-center">
-          <h3 className="text-3xl font-serif font-semibold text-gray-700 mb-6 fadeIn">
+        <div className="lg:col-span-7 flex flex-col justify-center">
+          <h3 className="text-3xl font-serif font-normal text-gray-700 mb-6 fadeIn">
             <strong>About Dr. Serena Blake</strong>
           </h3>
           
-          {/* Image - visible on small screens, hidden on md and up */}
-          <div className="flex items-center justify-center mb-8 md:hidden fadeIn" style={{transitionDelay: '90ms'}}>
+          {/* Image - visible on small and medium screens, hidden on lg and up */}
+          <div className="flex items-center justify-center mb-8 lg:hidden fadeIn" style={{transitionDelay: '90ms'}}>
             <div className="w-48 h-72 sm:w-56 sm:h-80 md:w-64 md:h-96 aspect-[2/3] overflow-hidden shadow-md relative">
               <Image
                 src="/images/headshot.jpg"
@@ -39,8 +39,8 @@ const About = () => {
           </div>
         </div>
 
-        {/* RIGHT: Image - hidden on small screens, visible on md and up */}
-        <div className="hidden md:flex md:col-span-5 items-start justify-center fadeIn" style={{transitionDelay: '90ms'}}>
+        {/* RIGHT: Image - hidden on small and medium screens, visible on lg and up */}
+        <div className="hidden lg:flex lg:col-span-5 items-start justify-center fadeIn" style={{transitionDelay: '90ms'}}>
           <div className="w-64 h-96 lg:w-72 lg:h-[28rem] xl:w-80 xl:h-[30rem] aspect-[2/3] overflow-hidden shadow-md relative">
             <Image
               src="/images/headshot.jpg"

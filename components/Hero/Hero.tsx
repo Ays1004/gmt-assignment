@@ -1,6 +1,13 @@
+"use client"
 import React from "react";
 
 const Hero = () => {
+  const handleClick = () => {
+    const contactSection = document.getElementById('contact-section');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
   return (
     // outer bg color
     <div className="w-full bg-[#ecebe3] overflow-hidden">
@@ -36,6 +43,7 @@ const Hero = () => {
 
           <button
             className="px-7 py-6 m-5 lg:px-14 lg:py-10 tracking-wide bg-[#84aeb1] hover:opacity-60 text-white text-md rounded-[50%_/_50%]"
+            onClick={handleClick}
           > SCHEDULE A CONSULTATION
           </button>
         </div>

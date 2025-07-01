@@ -33,7 +33,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="flex items-center justify-center w-full h-full">
-                <div className="p-8 h-full w-full flex items-center justify-center">
+                <div className="p-8 h-full w-full flex items-center justify-center" id="contact-section">
                     <Contact />
                 </div>
             </div>

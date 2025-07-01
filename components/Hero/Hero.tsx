@@ -18,7 +18,7 @@ const Hero = () => {
         />
 
         {/* no horizontal padding here, just full-height overlay */}
-        <div className="relative z-10 flex flex-col my-20 md:my-0 items-center justify-center w-full h-full">
+        <div className="relative z-10 flex flex-col my-10 sm:my-20 md:my-0 items-center justify-center w-full h-full">
           <h1 className="text-5xl lg:text-6xl font-semibold text-white text-center mb-4 px-6 mt-20 xl:mb-5 md:mt-0 xl:tracking-wide">
             Psychological Care for
 

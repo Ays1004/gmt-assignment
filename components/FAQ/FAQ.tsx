@@ -48,7 +48,7 @@ const FAQ = () => {
 				Frequently Asked Questions
 			</h1>
 			
-			<h2 className="md:ml-10 text-3xl font-light">Therapy</h2>
+			<h2 className="md:ml-10 text-3xl ">Therapy</h2>
 			</Appear>
 			<div>
 				{faqData.map((item, idx) => (
@@ -61,22 +61,22 @@ const FAQ = () => {
 							aria-expanded={openIndex === idx}
 							type="button"
 						>
-							<span
+							<p
 								className={`inline-block mr-4 text-[20px] text-[#b7c3cc] transition-transform duration-200 ${
 									openIndex === idx ? 'rotate-90' : ''
 								}`}
 							>
 								▶
-							</span>
-							<span className={openIndex === idx ? 'underline' : ''}>
+							</p>
+							<h2 className={openIndex === idx ? 'underline md:text-2xl' : 'md:text-2xl'}>
 								{item.question}
-							</span>
+							</h2>
 						</button>
 						
 						{openIndex === idx && (
-							<div className="pb-[18px] text-md sm:text-lg md:text-[18px] ">
+							<p className="pb-[18px] px-6 text-md sm:text-lg md:text-xl ">
 								{item.answer}
-							</div>
+							</p>
 						)}
 					</div>
 					</Appear>

@@ -20,3 +20,9 @@ p {
 a {
   font-family: var(--font-freight-sans), sans-serif;
 }
+label {
+  font-family: var(--font-freight-sans), sans-serif;
+}
+textarea, select {
+  font-family: var(--font-freight-sans), sans-serif;
+}

@@ -43,13 +43,13 @@ const Hero = () => {
             {" "}through PSYPACT participation
           </h1>
           </Appear>
-
+          <Appear>
           <button
-            className="px-5 py-3 w-50 sm:w-fit lg:px-14 lg:py-10 tracking-wide bg-[#84aeb1] hover:opacity-70 text-white  text-md rounded-[50%_/_50%]"
+            className="px-5 py-3 w-60 sm:w-70 lg:w-80 sm:px-7 lg:px-8 lg:py-10 tracking-wider bg-[#84aeb1] hover:opacity-70 text-white text-md rounded-[50%_/_50%]"
             onClick={handleClick}
-          > SCHEDULE A CONSULTATION
+          > <p>SCHEDULE A CONSULTATION</p>
           </button>
-          
+          </Appear>
         </div>
       </div>
     </div>

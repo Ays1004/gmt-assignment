@@ -101,10 +101,10 @@ const ContactForm = () => {
                         className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-700"
                         placeholder="e.g., Mornings, Afternoons, Evenings, Weekends"
                     />
-                    <span className="text-xs text-gray-500">
+                    <p className="text-xs p-1 text-gray-500">
                         Let us know when you're typically available for a call
                         or consultation
-                    </span>
+                    </p>
                 </div>
 
                 <div className="flex items-center gap-2 mt-2">
@@ -126,7 +126,8 @@ const ContactForm = () => {
                     type="submit"
                     className="w-full bg-green-900 text-white py-2 rounded-md font-semibold hover:bg-green-800 shadow-md"
                 >
-                    Submit
+                    <p>Submit</p>
+                    
                 </button>
                 <p className="text-xs text-gray-500 text-center mt-2">
                     By clicking submit you consent to receive texts and emails

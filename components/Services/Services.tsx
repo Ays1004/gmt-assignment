@@ -1,6 +1,7 @@
 import React from "react";
 import AreaOfFocus from "./AreaOfFocus";
 import RatesAndInsurance from "./RatesAndInsurance";
+import Appear from "../Appear";
 
 
 
@@ -10,10 +11,12 @@ const Services = () => {
             <div className="bg-[#f7f4ec] min-h-screen px-4 py-12 md:py-20">
                 <div className=" mx-auto text-center px-4">
                     <div className="sm:px-8 md:px-[14vw]">
+                        <Appear>
                         <h1 className="text-4xl md:text-4xl tracking-wider font-light mb-8 text-[#39332b]">
                             Therapy can be a space where you invest in yourself—one
                             of the highest forms of self-care.
-                        </h1>
+                        </h1></Appear>
+                        <Appear>
                         <p className="text-md/8 tracking-wider md:text-lg text-[#39332bcc] font-extralight mb-12 mx-auto">
                             You may be led to therapy by anxiety, depression,
                             relationship stress, past or recent trauma, grief and
@@ -23,6 +26,7 @@ const Services = () => {
                             alone. Therapy offers you the time and space to work
                             toward wellness and peace.
                         </p>
+                        </Appear>
                     </div>
 
                     <hr className="w-full border-t border-[#39332b] mb-16" />

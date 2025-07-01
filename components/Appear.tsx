@@ -10,7 +10,7 @@ interface Appear extends MotionProps {
 
 export default function Appear({
   children,
-  duration = 0.3, // default duration 1s
+  duration = 0.9, // default duration 1s
   delay = 0,     // optional: delay before animating
   ...props       // pass other motion.div props if needed
 }: Appear) {     

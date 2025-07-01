@@ -1,8 +1,12 @@
 "use client"
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 
 const About = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
   return (
     <div className="p-6 sm:p-10 md:p-25 lg:p-30">
       {/* LEFT: Heading + Text */}
@@ -13,7 +17,7 @@ const About = () => {
         
         {/* Show image on all screen sizes, hide only on md+ if needed */}
         <div className="flex pb-7 pt-4 items-center md:col-span-3 md:row-span-4 m-5 md:mt-30 justify-center fadeIn">
-          <div className="w-48 h-72 sm:w-56 sm:h-80 md:w-[30vh] md:h-[45vh] aspect-[2/3] overflow-hidden shadow-md relative">
+          <div className="w-48 h-72 sm:w-56 sm:h-80 md:w-[30vh] md:h-[45vh] aspect-[2/3] overflow-hidden shadow-md relative cursor-pointer" onClick={openModal}>
             <Image
               src="/images/headshot.jpg"
               alt="Dr. Serena Blake headshot"
@@ -23,6 +27,37 @@ const About = () => {
             />
           </div>
         </div>
+        {isModalOpen && (
+          <div
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70"
+            onClick={closeModal}
+          >
+            {/* Close button at top right of the screen */}
+            <button
+              className="fixed top-6 right-6  p-2 shadow-md transition-colors z-50 hover:cursor-pointer"
+              onClick={closeModal}
+              aria-label="Close image modal"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 text-gray-700">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+            <div className="relative" onClick={e => e.stopPropagation()}>
+              <div className="w-[80vw] max-w-[800px] flex items-center justify-center shadow-lg">
+                <div className="relative w-full h-0 pb-[150%]" >
+                  <Image
+                    src="/images/headshot.jpg"
+                    alt="Dr. Serena Blake headshot large"
+                    fill
+                    quality={90}
+                    className="object-contain"
+                    sizes="(max-width: 800px) 100vw, 800px"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
         
         <div className="space-y-5  md:px-10 md:col-span-3">
           <p className="text-[#7E7E6B] font-extralight text-md tracking-wide leading-8 fadeIn">

@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react'
+import Appear from '../Appear'
 
 const faqData = [
 	{
@@ -42,13 +43,18 @@ const FAQ = () => {
 
 	return (
 		<div className="w-screen pt-10 p-10 rounded bg-[#FEFEFE] font-extralight text-[#4a6a7b] ">
+			<Appear>
 			<h1 className="text-center font-light mb-5 text-[32px] text-[#4a6a7b]">
 				Frequently Asked Questions
 			</h1>
+			
 			<h2 className="md:ml-10 text-3xl font-light">Therapy</h2>
+			</Appear>
 			<div>
 				{faqData.map((item, idx) => (
+					<Appear key={idx}>
 					<div key={idx} className="border-b-zinc-500 hover:border-b-zinc-800 border-b border-dashed md:mx-10">
+						
 						<button
 							onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
 							className="flex items-center w-full bg-none border-none px-0 py-[18px] mr-10 text-md sm:text-xl text-[#4a6a7b] cursor-pointer outline-none text-left transition-colors duration-200 hover:bg-zinc-50"
@@ -66,12 +72,14 @@ const FAQ = () => {
 								{item.question}
 							</span>
 						</button>
+						
 						{openIndex === idx && (
 							<div className="pb-[18px] text-md sm:text-lg md:text-[18px] ">
 								{item.answer}
 							</div>
 						)}
 					</div>
+					</Appear>
 				))}
 			</div>
 		</div>

@@ -42,6 +42,24 @@ const freightDisp = localFont({
     display: "swap",
 });
 
+// Load Local FreightSansPro Font
+const freightSans = localFont({
+    src: [
+        {
+            path: "./fonts/freightsans/FreightSansProLight-Regular.woff2",
+            weight: "300",
+            style: "normal",
+        },
+        {
+            path: "./fonts/freightsans/FreightSansProMedium-Regular.woff2",
+            weight: "500",
+            style: "normal",
+        },
+    ],
+    variable: "--font-freight-sans",
+    display: "swap",
+});
+
 export const metadata: Metadata = {
     title: "Grow My Therapy Assignment",
     description: "Grow My Therapy Assignment - Ritik Yewale",
@@ -55,7 +73,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${freightDisp.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
+                className={`${freightDisp.variable} ${freightSans.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
             >
                 {children}
             </body>

@@ -14,3 +14,6 @@ body {
 h1, h2, h3 {
   font-family: var(--font-freight-disp), serif;
 }
+p {
+  font-family: var(--font-freight-sans), sans-serif;
+}

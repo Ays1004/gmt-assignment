@@ -12,12 +12,12 @@ const Services = () => {
                 <div className=" mx-auto text-center px-4">
                     <div className="sm:px-8 md:px-[14vw]">
                         <Appear>
-                        <h1 className="text-4xl md:text-4xl tracking-wider font-light mb-8 text-[#39332b]">
+                        <h1 className="text-4xl text-center max-w-5xl mx-auto md:text-4xl lg:text-[44px] tracking-wider font-light mb-8 text-[#39332b]">
                             Therapy can be a space where you invest in yourself—one
                             of the highest forms of self-care.
                         </h1></Appear>
                         <Appear>
-                        <p className="text-md/8 tracking-wider md:text-lg text-[#39332bcc] font-extralight mb-12 mx-auto">
+                        <p className="text-md/8 tracking-wider max-w-5xl md:text-lg/8 text-[#39332bcc] font-extralight mb-12 mx-auto">
                             You may be led to therapy by anxiety, depression,
                             relationship stress, past or recent trauma, grief and
                             loss, self-esteem issues, or challenges with family,
@@ -29,7 +29,7 @@ const Services = () => {
                         </Appear>
                     </div>
 
-                    <hr className="w-full border-t border-[#39332b] mb-16" />
+                    <hr className="max-w-7xl mx-auto border-t border-[#39332b] mb-16" />
                     <AreaOfFocus />
                 </div>
             </div>

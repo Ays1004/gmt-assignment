@@ -30,11 +30,11 @@ const AreaOfFocus = () => {
     return (
         <div>
             <Appear>
-                <h2 className="text-4xl md:text-4xl font-light mb-14 text-[#39332b]">
+                <h2 className="text-4xl md:text-4xl lg:text-5xl font-light mb-14 text-[#39332b]">
                     Areas of Focus
                 </h2>
             </Appear>
-            <div className="flex flex-row flex-wrap pt-10 justify-start sm:justify-between items-stretch gap-5 mt-10 sm:p-5">
+            <div className="flex flex-row flex-wrap pt-10 justify-start sm:justify-between items-stretch gap-5 mt-10 sm:p-5 lg:p-10">
                 {focusAreas.map((area, idx) => (
                     <div
                         key={idx}
@@ -55,7 +55,7 @@ const AreaOfFocus = () => {
                                 <h2 className="text-xl tracking-wide text-[#39332b] font-light text-center mb-4">
                                     {area.title}
                                 </h2>
-                                <p className="font-extralight text-sm/7 text-[#41413F] tracking-wide">
+                                <p className="font-extralight text-sm/7 text-[#41413F] tracking-wide lg:text-[16px]/8 lg:px-4">
                                     {area.description}
                                 </p>
                             </div>

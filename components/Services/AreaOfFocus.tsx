@@ -41,7 +41,7 @@ const AreaOfFocus = () => {
                         className="flex py-6 sm:py-2 flex-col items-center w-full sm:w-[35vw] md:w-3/10 sm:h-180"
                     >
                         <Appear>
-                            <div className="w-[80vw] h-[80vw] max-w-110 max-h-110 sm:w-[35vw] sm:h-[35vw] md:w-[25vw] md:h-[25vw] md:max-w-120 md:max-h-120 rounded-full overflow-clip mb-8 shadow-md bg-[#eae6dd] items-center justify-center relative">
+                            <div className="w-[80vw] h-[80vw] max-w-110 max-h-110 sm:w-[35vw] sm:h-[35vw] md:w-[25vw] md:h-[25vw] md:max-w-120 md:max-h-120 mx-auto rounded-full overflow-clip mb-8 shadow-md bg-[#eae6dd] items-center justify-center relative">
                                 <Image
                                     src={area.img}
                                     alt={area.alt}

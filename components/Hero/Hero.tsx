@@ -1,5 +1,6 @@
 "use client"
 import React from "react";
+import Appear from "../Appear";
 
 const Hero = () => {
   const handleClick = () => {
@@ -21,11 +22,12 @@ const Hero = () => {
           muted
           loop
           playsInline
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover bg-[#ecebe3]"
         />
 
         {/* no horizontal padding here, just full-height overlay */}
         <div className="relative z-10 flex flex-col py-10 sm:py-20 md:pt-30 items-center justify-center w-full h-full bg-black/30">
+          <Appear>
           <h1 className="text-5xl lg:text-6xl font-semibold text-white text-center mb-4 px-6 mt-20 xl:mb-5 md:mt-0 xl:tracking-wide">
             Psychological Care for
 
@@ -40,12 +42,14 @@ const Hero = () => {
             <span className="underline">most U.S. states</span>
             {" "}through PSYPACT participation
           </h1>
+          </Appear>
 
           <button
-            className="px-7 py-6 m-5 lg:px-14 lg:py-10 tracking-wide bg-[#84aeb1] hover:opacity-60 text-white text-md rounded-[50%_/_50%]"
+            className="px-5 py-3 w-50 sm:w-fit lg:px-14 lg:py-10 tracking-wide bg-[#84aeb1] hover:opacity-70 text-white  text-md rounded-[50%_/_50%]"
             onClick={handleClick}
           > SCHEDULE A CONSULTATION
           </button>
+          
         </div>
       </div>
     </div>

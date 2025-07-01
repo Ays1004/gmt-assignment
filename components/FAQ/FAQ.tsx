@@ -3,20 +3,20 @@ import React, { useState } from 'react'
 
 const faqData = [
 	{
-		question: 'What is the structure of Cognitive Behavioral Treatment for Insomnia (CBT-I)?',
-		answer: 'CBT-I typically involves assessment, sleep education, behavioral interventions, cognitive therapy, and relapse prevention, tailored to individual needs.',
+		question: 'Do you accept insurance?',
+		answer: 'No, but a superbill is provided for self-submission.',
+	},
+	{
+		question: 'Are online sessions available?',
+		answer: 'Yes—all virtual sessions via Zoom.',
+	},
+	{
+		question: 'What is your cancellation policy?',
+		answer: '24-hour notice required.',
 	},
 	{
 		question: 'Do you treat children or adolescents?',
 		answer: 'Our services are primarily focused on adults. Please contact us for referrals for children or adolescents.',
-	},
-	{
-		question: 'Which geographic regions do you serve?',
-		answer: 'We serve clients in regions where our clinicians are licensed to practice. Please inquire for specific locations.',
-	},
-	{
-		question: 'Do you offer in-person sessions?',
-		answer: 'We offer both in-person and virtual sessions, depending on your location and clinician availability.',
 	},
 	{
 		question: 'What technology do we use for virtual sessions?',
@@ -31,32 +31,17 @@ const faqData = [
 		answer: 'We are out-of-network providers but can provide documentation for insurance reimbursement.',
 	},
 	{
-		question: 'What is the cost of therapy?',
-		answer: 'Session fees vary by clinician and service. Please contact us for detailed information.',
-	},
-	{
 		question: 'What are the benefits of private pay therapy?',
 		answer: 'Private pay therapy offers greater privacy, flexibility, and individualized care without insurance restrictions.',
 	},
-	{
-		question: 'Do you accept insurance?',
-		answer: 'No, but a superbill is provided for self-submission.',
-	},
-	{
-		question: 'Are online sessions available?',
-		answer: 'Yes—all virtual sessions via Zoom.',
-	},
-	{
-		question: 'What is your cancellation policy?',
-		answer: '24-hour notice required.',
-	},
+	
 ]
 
 const FAQ = () => {
 	const [openIndex, setOpenIndex] = useState<number | null>(null)
 
 	return (
-		<div className="w-screen pt-10 p-10 rounded bg-white font-extralight text-[#4a6a7b] ">
+		<div className="w-screen pt-10 p-10 rounded bg-[#FEFEFE] font-extralight text-[#4a6a7b] ">
 			<h1 className="text-center font-light mb-5 text-[32px] text-[#4a6a7b]">
 				Frequently Asked Questions
 			</h1>
@@ -82,7 +67,7 @@ const FAQ = () => {
 							</span>
 						</button>
 						{openIndex === idx && (
-							<div className="pb-[18px] text-[18px] ">
+							<div className="pb-[18px] text-md sm:text-lg md:text-[18px] ">
 								{item.answer}
 							</div>
 						)}

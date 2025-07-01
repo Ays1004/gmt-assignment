@@ -16,50 +16,60 @@ const Contact = () => {
                 {/* Contact Details */}
                 <div className="lg:w-1/2 flex flex-col justify-center items-center lg:items-start text-center lg:text-left mt-8 lg:mt-0">
                     <div className="w-full max-w-md">
-                        <h1 className="text-2xl md:text-4xl text-gray-700 mb-6">
+                        <h1 className="text-2xl md:text-3xl lg:text-4xl font-light text-[#41413F] mb-6">
                             Dr. Serena Blake, PsyD
                             <br className="hidden md:block" />
                             Clinical Psychologist
                         </h1>
+                        <p className="mb-6 flex flex-col md:flex-row justify-center lg:justify-start items-center tracking-wide gap-2 md:gap-4 font-light">
+                            <span className="text-[#41413F]">Office Hours:</span>
+                            <span className="text-[#41413F]">
+                                In-person: Tue & Thu, 10 AM–6 PM
+                            </span>
+                            <span className="text-[#41413F]">
+                                Virtual via Zoom: Mon, Wed & Fri, 1 PM–5 PM
+                            </span>
+                        </p>
                         <div className="mb-4">
                             <a
                                 href="mailto:serena@blakepsychology.com"
-                                className="text-base md:text-lg text-gray-700 underline hover:text-gray-900"
+                                className="text-base md:text-lg text-black underline font-light "
                             >
                                 serena@blakepsychology.com
                             </a>
                         </div>
-                        <div className="mb-4 text-gray-700 text-base md:text-lg">
+                        <p className="mb-4 font-light text-[#41413F] text-base md:text-lg">
                             Phone:{" "}
                             <a
                                 href="tel:3235550192"
-                                className="underline hover:text-gray-900"
+                                className="underline text-black"
                             >
                                 (323) 555-0192
                             </a>
-                        </div>
-                        <div className="mb-4 text-gray-700 text-base md:text-lg">
+                        </p>
+                        <p className="mb-4 text-[#41413F] text-lg font-light">
                             1287 Maplewood Drive, Los Angeles, CA 90026
+                        </p>
+                        {/* Navigation Links Below Address */}
+                        <div className="flex flex-col items-center mb-4">
+                            <div className="flex gap-6 mb-6">
+                                <a href="/" className="underline  transition text-base md:text-lg font-light">Home</a>
+                                <a href="/privacy-policy" className="underline  transition text-base md:text-lg font-light">Privacy Policy</a>
+                                <a href="/good-faith-estimate" className="underline  transition text-base md:text-lg font-light">Good Faith Estimate</a>
+                            </div>
+                            <a href="/client-portal" className="underline  transition text-base md:text-lg font-light">Client Portal</a>
                         </div>
-                        <div className="mb-6 flex flex-col md:flex-row justify-center lg:justify-start items-center gap-2 md:gap-4 text-base">
-                            <span className="text-gray-700">Office Hours:</span>
-                            <span className="text-gray-700">
-                                In-person: Tue & Thu, 10 AM–6 PM
-                            </span>
-                            <span className="text-gray-700">
-                                Virtual via Zoom: Mon, Wed & Fri, 1 PM–5 PM
-                            </span>
-                        </div>
-                        <div className="text-xs md:text-sm text-gray-700 mt-8">
-                            © 2025 Serena Blake PsyD. All rights reserved.
-                        </div>
+                        
+                        <p className="text-lg font-light text-[#41413F] mt-8">
+                            © 2025 Serena Blake PsyD. Clinical Psychologist. All rights reserved.
+                        </p>
                     </div>
                 </div>
                 {/* Contact Form */}
                 <div className="lg:w-1/2 flex justify-center">
                     <form
                         onSubmit={handleSubmit}
-                        className="bg-white border border-gray-200 rounded-xl shadow-md p-6 md:p-8 w-full max-w-md flex flex-col gap-4"
+                        className="bg-[#f9f7f4] border border-gray-200 rounded-xl shadow-md p-6 md:p-8 w-full max-w-md flex flex-col gap-4"
                         autoComplete="off"
                     >
                         <h2 className="text-xl md:text-2xl text-green-900 font-semibold text-center mb-2">

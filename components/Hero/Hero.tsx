@@ -45,7 +45,7 @@ const Hero = () => {
           </Appear>
           <Appear>
           <button
-            className="px-5 py-3 w-60 sm:w-70 lg:w-80 sm:px-7 lg:px-8 lg:py-10 tracking-wider bg-[#84aeb1] hover:opacity-70 text-white text-md rounded-[50%_/_50%]"
+            className="px-5 py-3 w-60 sm:w-70 lg:w-80 sm:px-7 lg:px-8 lg:py-10 tracking-wider bg-[#84aeb1] hover:opacity-70 hover:cursor-pointer text-white text-md rounded-[50%_/_50%]"
             onClick={handleClick}
           > <p>SCHEDULE A CONSULTATION</p>
           </button>

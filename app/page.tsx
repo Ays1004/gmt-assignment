@@ -12,7 +12,7 @@ export default function Home() {
                 <div className="px-5 pt-10 sm:px-8 md:px-8 lg:px-12 xl:px-18 h-full w-full flex items-center justify-center">
                     <Header />
                 </div>
-                <div className="p-5 sm:p-8 md:p-8 lg:p-12 xl:p-18 h-full w-full flex items-center justify-center">
+                <div className="p-5 sm:p-8 md:p-8 lg:p-12 xl:px-16 h-full w-full flex items-center justify-center">
                     <Hero />
                 </div>
             </div>

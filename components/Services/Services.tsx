@@ -36,30 +36,13 @@ const Services = () => {
                     </h2>
                     <div className="text-lg md:text-xl text-[#39332b] font-light mb-6">
                         <div className="mb-2">
-                            Session Fee -{" "}
-                            <span className="font-medium">$200</span>
+                            Individual Session Fee - <span className="font-medium">$200</span>
                         </div>
                         <div className="mb-6">
-                            Psychodiagnostic Evaluation -{" "}
-                            <span className="font-medium">$225</span>
+                            Couples Session Fee - <span className="font-medium">$240</span>
                         </div>
                         <div className="mb-4">
-                            I accept both private pay and insurance. I am
-                            in-network with BCBS and Aetna.
-                        </div>
-                        <div>
-                            For out-of-network plans, I've partnered with
-                            Mentaya using{" "}
-                            <a
-                                href="https://app.mentaya.com/p/ZQJQwQb8r7kQ"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="underline text-[#39332b] hover:text-[#2d2620] transition-colors"
-                            >
-                                this tool
-                            </a>{" "}
-                            to help you check your eligibility for reimbursement
-                            for my services.
+                            I do not accept insurance, but I can provide a superbill for you to submit to your insurance for possible reimbursement.
                         </div>
                     </div>
                 </div>

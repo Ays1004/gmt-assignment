@@ -3,25 +3,25 @@ import Image from "next/image";
 
 const focusAreas = [
     {
-        title: "Therapy for Healthcare Providers and Students",
-        img: "/images/service1.jpg", // Replace with your actual image path
-        alt: "Healthcare provider with patient",
+        title: "Anxiety & Stress Management",
+        img: "/images/service1.jpg",
+        alt: "Person meditating in a calm environment",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+            "Evidence-based strategies to help you manage anxiety, reduce stress, and regain a sense of calm and control in your daily life.",
     },
     {
-        title: "Therapy for Trauma and Grief",
-        img: "/images/service2.jpg", // Replace with your actual image path
-        alt: "Hands holding a flower",
+        title: "Relationship Counseling",
+        img: "/images/service2.jpg",
+        alt: "Two people having a supportive conversation",
         description:
-            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            "Support for couples and individuals to strengthen communication, resolve conflicts, and build healthier, more fulfilling relationships.",
     },
     {
-        title: "Therapy for Second Generation Individuals In Immigrant Families",
-        img: "/images/service3.jpg", // Replace with your actual image path
-        alt: "Hands holding a small US flag",
+        title: "Trauma Recovery",
+        img: "/images/service3.jpg",
+        alt: "A comforting hand on a shoulder",
         description:
-            "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Quis .Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "Compassionate care to help you process and heal from traumatic experiences, using proven therapeutic approaches tailored to your needs.",
     },
 ];
 

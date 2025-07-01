@@ -21,7 +21,7 @@ const Header = () => {
                 </div>
                 <div className="flex flex-col pr-2 justify-center">
                     <h1 className="text-xl text-[hsla(60,1.56%,25.1%,1)] leading-tight">
-                        Serena Blake, PsyD
+                        Dr. Serena Blake, PsyD
                     </h1>
                     <h1 className="text-xl text-[hsla(60,1.56%,25.1%,1)] leading-tight">
                         Clinical Psychologist

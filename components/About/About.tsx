@@ -61,13 +61,7 @@ const About = () => {
         
         <div className="space-y-5  md:px-10 lg:py-10 md:col-span-3">
           <p className="text-[#7E7E6B] font-extralight text-md tracking-wide leading-8 fadeIn lg:tracking-wider">
-            Finding calm and connection in today's fast-paced world can feel like a constant uphill climb. I believe therapy provides a dedicated space to pause, reflect, and tend to the parts of ourselves that often go unheard. It can be a space for healing from anxiety and trauma, deepening relationships, and reconnecting with a sense of purpose and wholeness.
-          </p>
-          <p className="text-[#7E7E6B] font-extralight text-md tracking-wide leading-8 fadeIn lg:tracking-wider">
-            As a licensed clinical psychologist with eight years of experience and over 500 client sessions, I aim to meet each person with warmth, curiosity, and respect. My approach integrates evidence-based practices—like cognitive-behavioral therapy and mindfulness—with an emphasis on building a genuine, collaborative relationship. I believe real change happens when we feel safe enough to explore both our struggles and our strengths.
-          </p>
-          <p className="text-[#7E7E6B] font-extralight text-md tracking-wide leading-8 fadeIn lg:tracking-wider">
-            I earned my PsyD in Clinical Psychology and currently practice in Los Angeles, CA, where I see clients both in person and virtually. Whether we meet in my Maplewood Drive office or through Zoom, I strive to create a space where you feel seen, supported, and empowered to move toward the life you want.
+            Dr. Serena Blake is a licensed clinical psychologist (PsyD) based in Los Angeles, CA, with eight years of experience and over 500 client sessions. She blends evidence-based approaches—like cognitive-behavioral therapy and mindfulness—with compassionate, personalized care to help you overcome anxiety, strengthen relationships, and heal from trauma. Whether you meet in her Maplewood Drive office or connect virtually via Zoom, Dr. Blake is committed to creating a safe, supportive space for you to thrive.
           </p>
         </div>
       </div>

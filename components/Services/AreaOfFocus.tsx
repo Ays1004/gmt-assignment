@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const focusAreas = [
     {
@@ -36,11 +37,14 @@ const AreaOfFocus = () => {
                         key={idx}
                         className="flex flex-col items-center w-full sm:w-[35vw] md:w-3/10 sm:h-170"
                     >
-                        <div className="w-[80vw] h-[80vw] max-w-110 max-h-110 sm:w-fit sm:h-[35vw] md:w-[25vw] md:h-[25vw] md:max-w-120 md:max-h-120 rounded-full overflow-clip mb-8 shadow-md bg-[#eae6dd] items-center justify-center">
-                            <img
+                        <div className="w-[80vw] h-[80vw] max-w-110 max-h-110 sm:w-[35vw] sm:h-[35vw] md:w-[25vw] md:h-[25vw] md:max-w-120 md:max-h-120 rounded-full overflow-clip mb-8 shadow-md bg-[#eae6dd] items-center justify-center relative">
+                            <Image
                                 src={area.img}
                                 alt={area.alt}
+                                fill
+                                sizes="(max-width: 640px) 80vw, (max-width: 1024px) 35vw, 25vw"
                                 className="object-cover w-full h-full"
+                                priority={idx === 0}
                             />
                         </div>
                         <div>

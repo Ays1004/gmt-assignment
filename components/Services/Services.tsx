@@ -9,7 +9,7 @@ const Services = () => {
         <div>
             <div className="bg-[#f7f4ec] min-h-screen px-4 py-12 md:py-20">
                 <div className=" mx-auto text-center px-4">
-                    <div className="px-8 md:px-[14vw]">
+                    <div className="sm:px-8 md:px-[14vw]">
                         <h1 className="text-4xl md:text-4xl tracking-wider font-light mb-8 text-[#39332b]">
                             Therapy can be a space where you invest in yourself—one
                             of the highest forms of self-care.

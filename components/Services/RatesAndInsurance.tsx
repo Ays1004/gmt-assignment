@@ -32,7 +32,7 @@ const RatesAndInsurance = () => {
             >
                 <div className="absolute inset-0 bg-white/20" />
                 <div className="relative z-10 max-w-3xl lg:max-w-6xl mx-auto text-center px-4">
-                    <h2 className="text-3xl px-20 lg:text-4xl text-black font-light mb-4 drop-shadow-lg">
+                    <h2 className="text-3xl md:px-20 lg:text-4xl text-black font-light mb-4 drop-shadow-lg">
                         "I have come to believe that caring for myself is not self-indulgent. Caring for myself is an act of survival."
                     </h2>
                     <p className="block text-lg md:text-xl font-light mt-2 drop-shadow">

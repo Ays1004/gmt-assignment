@@ -11,7 +11,7 @@ const About = () => {
     <div className="p-6 sm:p-10 md:p-25 lg:px-[15vw]">
       {/* LEFT: Heading + Text */}
       <div className="grid grid-cols-1 md:grid-cols-6 h-fit md:h-350 lg:h-300 md:grid-rows-12">
-        <h3 className="text-3xl md:col-span-3 md:row-span-1 md:p-10 font-normal lg:text-4xl text-[#7E7E6B] fadeIn">
+        <h3 className="text-3xl md:col-span-3 md:row-span-1 md:p-10 xl:px-20 font-normal lg:text-4xl text-[#7E7E6B] fadeIn">
           <strong>About Dr. Serena Blake</strong>
         </h3>
         
@@ -59,14 +59,14 @@ const About = () => {
           </div>
         )}
         
-        <div className="space-y-5  md:px-10 md:py-6 lg:py-10 md:col-span-3">
-          <p className="text-[#7E7E6B] font-extralight text-md tracking-wide leading-8 fadeIn lg:tracking-wider">
+        <div className="space-y-5  md:px-10 md:py-6 lg:py-10 xl:px-20 md:col-span-3">
+          <p className="text-[#7E7E6B] font-extralight text-md lg:text-lg tracking-wide leading-8 fadeIn lg:tracking-wider">
             Finding calm and connection in today's fast-paced world can feel like a constant uphill climb. I believe therapy provides a dedicated space to pause, reflect, and tend to the parts of ourselves that often go unheard. It can be a space for healing from anxiety and trauma, deepening relationships, and reconnecting with a sense of purpose and wholeness.
           </p>
-          <p className="text-[#7E7E6B] font-extralight text-md tracking-wide leading-8 fadeIn lg:tracking-wider">
+          <p className="text-[#7E7E6B] font-extralight text-md lg:text-lg tracking-wide leading-8 fadeIn lg:tracking-wider">
             As a licensed clinical psychologist with eight years of experience and over 500 client sessions, I aim to meet each person with warmth, curiosity, and respect. My approach integrates evidence-based practices—like cognitive-behavioral therapy and mindfulness—with an emphasis on building a genuine, collaborative relationship. I believe real change happens when we feel safe enough to explore both our struggles and our strengths.
           </p>
-          <p className="text-[#7E7E6B] font-extralight text-md tracking-wide leading-8 fadeIn lg:tracking-wider">
+          <p className="text-[#7E7E6B] font-extralight text-md lg:text-lg tracking-wide leading-8 fadeIn lg:tracking-wider">
             I earned my PsyD in Clinical Psychology and currently practice in Los Angeles, CA, where I see clients both in person and virtually. Whether we meet in my Maplewood Drive office or through Zoom, I strive to create a space where you feel seen, supported, and empowered to move toward the life you want
           </p>
         </div>

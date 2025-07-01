@@ -35,6 +35,7 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full">
                 <div className="h-full w-full flex items-center justify-center" id="contact-section">
                     <Contact />
+                    
                 </div>
             </div>
         </div>

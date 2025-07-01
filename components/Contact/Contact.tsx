@@ -22,7 +22,9 @@ const Contact = () => {
                             Clinical Psychologist
                         </h1>
                         <p className="mb-6 flex flex-col md:flex-row justify-center lg:justify-start items-center tracking-wide gap-2 md:gap-4 font-light">
-                            <span className="text-[#41413F]">Office Hours:</span>
+                            <span className="text-[#41413F]">
+                                Office Hours:
+                            </span>
                             <span className="text-[#41413F]">
                                 In-person: Tue & Thu, 10 AM–6 PM
                             </span>
@@ -51,18 +53,40 @@ const Contact = () => {
                             1287 Maplewood Drive, Los Angeles, CA 90026
                         </p>
                         {/* Navigation Links Below Address */}
-                        <div className="flex flex-col items-center mb-4">
-                            <div className="flex gap-6 mb-6">
-                                <a href="/" className="underline  transition text-base md:text-lg font-light">Home</a>
-                                <a href="/privacy-policy" className="underline  transition text-base md:text-lg font-light">Privacy Policy</a>
-                                <a href="/good-faith-estimate" className="underline  transition text-base md:text-lg font-light">Good Faith Estimate</a>
+                        <div className="">
+                            <div className="flex flex-col items-center lg:items-start mb-4 ">
+                                <div className="flex gap-6 mb-6">
+                                    <a
+                                        href="/"
+                                        className="underline transition text-base md:text-lg font-light"
+                                    >
+                                        Home
+                                    </a>
+                                    <a
+                                        href="/"
+                                        className="underline transition text-base md:text-lg font-light"
+                                    >
+                                        Privacy Policy
+                                    </a>
+                                    <a
+                                        href="/"
+                                        className="underline transition text-base md:text-lg font-light"
+                                    >
+                                        Good Faith Estimate
+                                    </a>
+                                </div>
+                                <a
+                                    href="/client-portal"
+                                    className="underline transition text-base md:text-lg font-light"
+                                >
+                                    Client Portal
+                                </a>
                             </div>
-                            <a href="/client-portal" className="underline  transition text-base md:text-lg font-light">Client Portal</a>
+                            <p className="text-lg font-light text-[#41413F] mt-8">
+                                © 2025 Serena Blake PsyD. Clinical Psychologist.
+                                All rights reserved.
+                            </p>
                         </div>
-                        
-                        <p className="text-lg font-light text-[#41413F] mt-8">
-                            © 2025 Serena Blake PsyD. Clinical Psychologist. All rights reserved.
-                        </p>
                     </div>
                 </div>
                 {/* Contact Form */}
@@ -139,7 +163,7 @@ const Contact = () => {
                             <textarea
                                 id="message"
                                 name="message"
-                                className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-700"
+                                className="w-full border border-gray-300 rounded-md px-3 py-2 resize-none focus:outline-none focus:ring-2 focus:ring-green-700"
                                 placeholder="What brings you here?"
                                 rows={3}
                                 required
@@ -164,7 +188,7 @@ const Contact = () => {
                                 a call or consultation
                             </span>
                         </div>
-                        
+
                         <div className="flex items-center gap-2 mt-2">
                             <input
                                 id="Agree"
@@ -179,7 +203,6 @@ const Contact = () => {
                             >
                                 I agree to be contacted
                             </label>
-                            
                         </div>
                         <button
                             type="submit"
